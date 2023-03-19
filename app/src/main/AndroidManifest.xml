@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sharkBytesLab.nocoBedtimeStory">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_new"
@@ -9,19 +12,36 @@
         android:roundIcon="@mipmap/ic_launcher_new_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BedtimeStoryBook">
-        <activity android:name="com.sharkBytesLab.nocoBedtimeStory.Details">
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TermsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RewardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity android:name=".Details">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sharkBytesLab.nocoBedtimeStory.MainActivity"/>
+                android:value="com.sharkBytesLab.nocoBedtimeStory.MainActivity" />
         </activity>
-        <activity android:name="com.sharkBytesLab.nocoBedtimeStory.MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="doNokpQpB4U8uCdC0RFRN7O2VWKagVVGIFFffq_NSgiVQ4_TOoqDFOmBgdKpxUgGSRpRiC39b85dC8_TkifX2y" />
+
     </application>
 
 </manifest>
