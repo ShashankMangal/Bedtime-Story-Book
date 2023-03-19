@@ -1,4 +1,4 @@
-package com.example.bedtimestorybook;
+package com.sharkBytesLab.nocoBedtimeStory;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;

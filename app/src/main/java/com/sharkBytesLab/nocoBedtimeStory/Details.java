@@ -1,11 +1,10 @@
-package com.example.bedtimestorybook;
+package com.sharkBytesLab.nocoBedtimeStory;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class Details extends AppCompatActivity {
 TextView storyContent;

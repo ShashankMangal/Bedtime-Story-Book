@@ -1,4 +1,4 @@
-package com.example.bedtimestorybook;
+package com.sharkBytesLab.nocoBedtimeStory;
 
 import android.content.Context;
 import android.content.Intent;

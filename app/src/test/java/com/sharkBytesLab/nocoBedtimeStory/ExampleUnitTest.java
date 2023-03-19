@@ -1,4 +1,4 @@
-package com.example.bedtimestorybook;
+package com.sharkBytesLab.nocoBedtimeStory;
 
 import org.junit.Test;
 
